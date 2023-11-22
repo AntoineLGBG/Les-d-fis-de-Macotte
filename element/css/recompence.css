@@ -1,0 +1,325 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Roboto:wght@300;400&display=swap');
+
+/* texte badges de recompenses */
+.intro {
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding: 20px;
+}
+
+.intro p{
+    font-family: Inter;
+}
+
+/* badge */
+
+.badge{
+    margin: auto;
+    width: 70%;
+    height: auto;
+}
+
+/* planche de 12 */
+.planche12 {
+    justify-content: flex-end;
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #398175;
+    color: white;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s; 
+}
+
+.planche12 a{
+    text-decoration: none;
+    color: white;
+}
+
+/* hover */
+.planche12:hover{
+    background-color: #4BC3B7;
+    color: #3A8075;
+}
+
+/* premiere rangée */
+.première_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.première_rangée button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+/* deuxieme rangée */
+.deuxième_rangée{
+
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.deuxième_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+/* troisieme rangée */
+.troisième_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+.troisième_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.troisième_rangée button{
+    background-color: #398175;
+}
+
+.troisième_rangée button{
+    background-color: #398175;
+}
+
+/* quatrieme rangee */
+.quatrième_rangée{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.quatrième_rangée button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.quatrième_rangée button{
+    background-color: #398175;
+}
+
+.quatrième_rangée button{
+    background-color: #398175;
+}
+
+
+/* premier badge */
+.premier_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.premier_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.premier_badge button:hover{
+    background-color: #4BC3B7;
+    color: #3A8075;
+}
+
+/* deuxieme badge */
+
+.deuxième_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.deuxième_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.deuxième_badge button:hover{
+    background-color: #4BC3B7;
+    color: #3A8075;
+}
+
+@media screen and (width > 765px) {
+    .yes-mobile{
+        display: none;
+    }
+  }
+@media screen and (max-width: 765px) {
+    .no-mobile{
+        display: none;
+    }
+
+  }
+/* troiseme badge */
+.troisième_badge{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.troisième_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    color: rgb(0, 0, 0);
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.social_animation{
+    transition: 0.5s;
+}
+
+.troisième_badge button:hover{
+    background-color: #4BC3B7;
+    color: #3A8075;
+}
+
+.social_animation:hover{
+    transform: translateY(-7px);
+    color: #000000;
+}
+
+
+
+/* quatrieme */
+
+.quatrieme_badge{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    width: 450px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.quatrième_rangée{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.quatrième_rangée button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.quatrième_rangée button:hover{
+    background-color: #4BC3B7;
+    color: #3A8075;
+}
+
+
+.quatrieme_badge button{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    background-color: #3A8075;
+    text-decoration: none;
+    width: 219px;
+    height: 40px; 
+    border-radius: 15px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.quatrieme_badge button:hover{
+    background-color: #4BC3B7;
+    color: #3A8075;
+}
+
