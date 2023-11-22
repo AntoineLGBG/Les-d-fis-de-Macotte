@@ -1,0 +1,520 @@
+.badge {
+    width: 250px;
+    height: auto;
+    } 
+
+.dates{ 
+  width: 100%;
+  height: 100%;
+  color: #3A8075;
+  text-align: center;
+  font-family:  Nunito Sans;
+  font-size: 50px;
+  font-weight: 900;
+  
+}
+
+
+
+.semaines {
+    margin-top: 117px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.explications{
+    margin-top: 148px;
+}
+
+
+.explications p{
+    font-family: Inter; 
+    width: 70%;
+    height: 100px; 
+    margin-top: 58px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media screen and (max-width: 600px) {
+  .espacevideo{
+    margin: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .espacevideo{
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .espacevideo{
+    margin: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .espacevideo{
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .espacevideo{
+    margin: 100px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .espacevideo{
+    margin: 120px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .espacevideo{
+    margin: 130px;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .espacevideo{
+    margin: 200px;
+  }
+}
+
+.explications iframe{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.défis{
+  margin-top: 450px;
+  margin-bottom: -100px;
+}
+
+.défis_jour1 {
+  margin-top: 259px;
+  color: var(--Vert-fonc, #3A8075);
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.défis_jour2 {
+  color: var(--Turquoise, #4BC3B7);
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  position: relative; 
+  margin-top: -260px;
+}
+
+.défis_jour3 {
+  color: #A7C957;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 200px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+  position: relative;
+  margin-top: -300px;
+  margin-left: 490px;
+}
+
+
+/* themes */
+.theme{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.themechoix{
+   font-family: Nunito; 
+   font-size: 25px;
+   font-weight: 400;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.theme h3 span{
+  margin-top: -2px;
+margin-right: 10px;
+  flex-shrink: 0;
+  color: #398175;
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  }
+  
+  .theme2 p{
+  color: #FFF;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 136.03%;
+  text-align: center;
+  margin-top: 5.5rem;
+  letter-spacing: 3px;
+  }
+
+
+.theme1{
+  background: url('../image/cible.png'),  #398175;
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  padding: 0rem 4rem 2rem 2rem;
+  margin: 1rem 15rem 1rem 15rem;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+
+.theme1 h2{
+  color: #FFF;
+  text-align: center;
+  font-family: Irish Grover;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  }
+  
+
+.theme2{
+  display: flex;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 280px;
+  border-radius: 30px;
+  background: rgba(153, 228, 170, 0.70);
+  justify-content: center;
+}
+
+.theme .objectif p {
+  color: #398175;
+}
+
+.objectif{
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p .objectif{
+  
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+.objectif span{
+
+  background-color: #398175;
+  color: #FFF;
+  padding: 1rem;
+  border-radius: 15px; 
+}
+/* pourquoi */
+
+.pourquoi{
+  padding-top: 50px;
+}
+
+.pourquoi p{
+    width: 70%;
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.badges{
+  padding-top: 100px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.télé a {
+  text-decoration: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+text-decoration-line: underline;
+}
+
+
+.plus h3{
+  font-family: Nunito;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+.plus p{
+  width: 70%;
+  padding-top: 10px; 
+
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.badge{
+  padding-bottom: 200px;
+  height: 250px;
+  width: auto;
+}
+
+.badges_droite{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+
+
+    
+}
+
+
+.badges_droite h1{
+    
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left:0px ;
+   
+}
+
+.badges_droite p{
+  
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left:0px ;
+    width: 80%;
+}
+
+.badges_droite .a1{
+    margin-right: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left:0px ;
+    font-size: 20px;
+    margin-top: 31px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid var(--Vert-fonc, #3A8075);
+    background: var(--Blanc, #FFF); 
+    text-decoration: none;
+    width: 270px;
+    height: 40px; 
+    border-radius: 15px;
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.badges_droite .a1:hover{
+  border-radius: 10px;
+  border: 2px solid var(--Vert-fonc, #3A8075);
+  background: var(--Vert-fonc, #3A8075);
+  color: #FFF;
+}
+
+.badges_droite .a2{
+  font-size: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: left;
+  margin-left:0px ;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-radius: 10px;
+  border: 2px solid var(--Vert-clair, #99E4AA);
+  text-decoration: none;
+  width: 340px;
+  height: 40px; 
+  border-radius: 15px;
+  
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.badges_droite .a2:hover{
+  border-radius: 10px;
+  border: 2px solid var(--Vert-clair, #99E4AA);
+  background: var(--Vert-clair, #99E4AA);
+}
+
+
+.télé {
+  display: flex;
+  flex-direction: row;
+}
+
+#p4 {
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+.resumer p{
+
+  display: flex;
+  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  width: 70%;
+}
+
+.social_animation{
+  transition: 0.5s;
+}
+
+.social_animation:hover{
+  transform: translateY(-7px);
+  color: #000000;
+}
+
+@media screen and (max-width: 2000px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .défis{
+    margin-bottom: 50rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .défis{
+    margin-top: 40rem;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .défis{
+    margin-top: 35rem;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+  .défis_jour3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .défis_jour3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .défis_jour3{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .défis_jour3{
+   display: none;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .défis_jour3{
+   display: none;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .défis_jour3{
+   display: none;
+  }
+}
